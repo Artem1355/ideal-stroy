@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Идеал Строй | Металлоконструкции и Ангары в Волгограде</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="header-content">
+            <div class="logo">ИДЕАЛ<span>СТРОЙ</span></div>
+            
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li class="dropdown">
+                        <a href="#services" class="dropbtn">Наши услуги <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="hangars.html">Ангары</a></li>
+                            <li><a href="canopies.html">Навесы</a></li>
+                            <li><a href="gates.html">Откатные ворота</a></li>
+                            <li><a href="structures.html">Металлоконструкции</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#portfolio">Наши работы</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-contacts">
+                <a href="tel:+79375335350" class="phone">8 (937) 533-53-50</a>
+                <button class="btn btn-small open-modal">Заказать</button>
+            </div>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>Строим надежные <br><span>металлоконструкции</span></h1>
+                <p>От частных навесов до промышленных ангаров. Своё производство в Волгограде. Работаем с НДС.</p>
+                <div class="hero-btns">
+                    <a href="#services" class="btn">Наши услуги</a>
+                    <a href="#contacts" class="btn btn-outline">Рассчитать стоимость</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-hammer"></i>
+                    <h3>10 лет опыта</h3>
+                    <p>Знаем все нюансы сварки и монтажа.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-truck-loading"></i>
+                    <h3>Свой автопарк</h3>
+                    <p>Доставка на объект своей Газелью.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <h3>Честная смена</h3>
+                    <p>Цена не меняется в процессе работы.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Что мы предлагаем</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('images/service1.jpg');"></div>
+                    <div class="service-info">
+                        <h3>Промышленные ангары</h3>
+                        <p>Проектирование и строительство складов, цехов и зернохранилищ.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('images/service2.jpg');"></div>
+                    <div class="service-info">
+                        <h3>Навесы и беседки</h3>
+                        <p>Изготовление навесов из поликарбоната и профнастила для авто и отдыха.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('images/service3.jpg');"></div>
+                    <div class="service-info">
+                        <h3>Заборы и ворота</h3>
+                        <p>Откатные и распашные ворота, заборы любой сложности.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="cta-form">
+        <div class="container">
+            <div class="form-wrapper">
+                <h2>Нужен расчет стоимости?</h2>
+                <p>Оставьте заявку, и мы перезвоним в течение 15 минут</p>
+                <form id="mainForm">
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <input type="tel" name="phone" placeholder="Ваш телефон" required>
+                    <button type="submit" class="btn btn-block">Получить расчет</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 Идеал Строй. Все права защищены. Волгоград.</p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
