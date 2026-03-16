@@ -38,7 +38,7 @@
 </header>
 
 <main>
-    <section class="service-hero" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=2069&auto=format&fit=crop') center/cover;">
+    <section class="service-hero" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/service3.jpg') center/cover;">
         <div class="container">
             <h1>Изготовление и монтаж откатных ворот</h1>
             <p>Надежные автоматические системы для частных домов и промышленных объектов</p>
@@ -86,13 +86,21 @@
 
     <section id="contacts" class="cta-form">
         <div class="container">
-            <div class="form-wrapper">
-                <h2>Рассчитать стоимость ворот</h2>
-                <p>Укажите ширину проема и выберите вариант отделки</p>
+            <div class="form-card">
+                <div class="form-header">
+                    <h2>Нужен расчет стоимости?</h2>
+                    <p>Оставьте заявку, и мы перезвоним в течение 15 минут</p>
+                </div>
                 <form id="mainForm">
-                    <input type="text" name="name" placeholder="Ваше имя" required>
-                    <input type="tel" name="phone" placeholder="Ваш телефон" required>
-                    <button type="submit" class="btn btn-block">Получить расчет</button>
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-phone"></i>
+                        <input type="tel" name="phone" placeholder="Ваш телефон" required>
+                    </div>
+                    <button type="submit" class="btn btn-block">Получить расчет <i class="fas fa-paper-plane"></i></button>
                 </form>
             </div>
         </div>

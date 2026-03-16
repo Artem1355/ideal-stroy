@@ -38,7 +38,7 @@
 </header>
 
 <main>
-    <section class="service-hero" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('image/hangar-main.jpg') center/cover;">
+    <section class="service-hero" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/service1.jpg') center/cover;">
         <div class="container">
             <h1>Строительство ангаров под ключ</h1>
             <p>Проектируем и возводим быстровозводимые здания любой сложности в Волгограде и области</p>
@@ -85,14 +85,21 @@
 
     <section id="contacts" class="cta-form">
         <div class="container">
-            <div class="form-wrapper">
-                <h2>Рассчитать стоимость ангара</h2>
-                <p>Оставьте параметры объекта, и мы подготовим смету за 1 день</p>
+            <div class="form-card">
+                <div class="form-header">
+                    <h2>Нужен расчет стоимости?</h2>
+                    <p>Оставьте заявку, и мы перезвоним в течение 15 минут</p>
+                </div>
                 <form id="mainForm">
-                    <input type="text" name="name" placeholder="Ваше имя" required>
-                    <input type="tel" name="phone" placeholder="Ваш телефон" required>
-                    <textarea name="message" placeholder="Примерные размеры (ширина, длина, высота)" style="width: 100%; padding: 15px; border-radius: 4px; border: none; margin-bottom: 15px; min-height: 100px;"></textarea>
-                    <button type="submit" class="btn btn-block">Получить смету</button>
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-phone"></i>
+                        <input type="tel" name="phone" placeholder="Ваш телефон" required>
+                    </div>
+                    <button type="submit" class="btn btn-block">Получить расчет <i class="fas fa-paper-plane"></i></button>
                 </form>
             </div>
         </div>

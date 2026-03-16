@@ -38,7 +38,7 @@
 </header>
 
 <main>
-    <section class="service-hero" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1590059392653-333e616230f8?q=80&w=2070&auto=format&fit=crop') center/cover;">
+    <section class="service-hero" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/service2.jpg') center/cover;">
         <div class="container">
             <h1>Профессиональное изготовление навесов</h1>
             <p>Навесы для автомобилей, террас и зон отдыха из поликарбоната, профнастила и металлочерепицы</p>
@@ -86,13 +86,21 @@
 
     <section id="contacts" class="cta-form">
         <div class="container">
-            <div class="form-wrapper">
-                <h2>Вызвать замерщика бесплатно</h2>
-                <p>Наш специалист приедет, снимет размеры и предложит варианты дизайна</p>
+            <div class="form-card">
+                <div class="form-header">
+                    <h2>Нужен расчет стоимости?</h2>
+                    <p>Оставьте заявку, и мы перезвоним в течение 15 минут</p>
+                </div>
                 <form id="mainForm">
-                    <input type="text" name="name" placeholder="Ваше имя" required>
-                    <input type="tel" name="phone" placeholder="Ваш телефон" required>
-                    <button type="submit" class="btn btn-block">Записаться на замер</button>
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-phone"></i>
+                        <input type="tel" name="phone" placeholder="Ваш телефон" required>
+                    </div>
+                    <button type="submit" class="btn btn-block">Получить расчет <i class="fas fa-paper-plane"></i></button>
                 </form>
             </div>
         </div>
